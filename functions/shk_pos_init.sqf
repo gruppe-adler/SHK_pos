@@ -56,7 +56,7 @@
     
   Usage:
     Preprocess the file in init.sqf:
-      call compile preprocessfile "SHK_pos\shk_pos_init.sqf";
+      call compile preprocessfile "node_modules\shk_pos\functions\shk_pos_init.sqf";
     
     Actually getting the position:
       pos = [parameters] call SHK_pos;
